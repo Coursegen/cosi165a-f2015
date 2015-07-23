@@ -1,0 +1,80 @@
+---
+title: Client and the server data models
+desc: Designing a schema to support the functionality
+homework: published
+---
+<%= homework_hdr %>
+* Read this article: [Basics of good database design in Web Development](http://www.onextrapixel.com/2011/03/17/the-basics-of-good-database-design-in-web-development/)
+
+* Today we will be talking about the data that is kept in the client and in the server for a web based application. Note that for a regular web application there's relatively little/no database in the 'client.' However for a native mobile application (i.e. iOS or Android) there can be data stored in the client database too.
+
+	Think very carefully about the different 'entities' (a.k.a. classes, objects, things) that your product has to keep track of. How many different kinds are there. Examplesa are "users", "places", "classes", etc. 
+
+	For each entity, what are it's properties? For example, users might have a first name, last name, university, home address, account type, and so on. A place might have a place name, latitude and longitude, etc.
+
+	For your product, make as complete a list as you can of all the entities, properties for each entity and whether there will be one or many instances of that entity. We call this list the schema for your product's database. **Here's an example:**
+
+	* Entity: Student
+		* Name
+		* Age
+		* Type (student or staff or faculty)
+		* Dorm
+		* Year (freshman, etc.)
+	* Entity: Pet 
+		* Name
+		* Breed
+		* Species
+		* Birthday
+		* Current location: (e.g. Arlington Animal Rescue)
+	* ... and so on
+
+	<%= deliverable "Write a post with what you think the schema is for your product" %>
+
+#### Discussion
+* Plan for Monday. Discuss deliverables. 
+* We've given each team an [advisor](https://moodle2.brandeis.edu/mod/page/view.php?id=144466) to help give you individualized feedback as needed. Once you've completed your Frame 2 Report (before or after submitting it) you should schedule a meeting with him or her.
+* [Let's look at my NEST](www.nest.com)
+
+<%= callout("important", " Its your responsibility to have a meeting with your advisor to discuss and get feedback on your Frame 2 Deliverable.") %>
+
+#### Data Modeling
+* Crucial step in design
+* The domain model
+* SQL vs. NOSQL databases
+* SQL Databases
+	* Schema
+	* Tables
+	* Fields
+	* Joins
+* Relationships
+	* One to One (Student <-> Transcript)
+	* One to Many (Student -> Car)
+	* Many to Many (Student <-> Courses)
+* Careful analysis of the product requirements
+
+#### NEST exercise
+* NEST 'system'
+	* What are the key parts? Thermostat, web site, service
+	* Who are the users? theromostat owners, NEST administrators
+	* What information should be stored in each part of the system?
+* What happens when
+	* A new thermostat is installed for the first time?
+	* A thermostat runs day to day
+	* A user changes the temperature on the thermostat
+	* A user runs the NEST app
+
+#### Swarm exercise (used to be FourSquare)
+* Foursquare 'system'
+	* What are the parts? mobile device, web site, and the service
+	* Who are users? users, administrators
+	* What information is stored in each
+* What happens when
+	* new user runs the app
+	* existing user launches it
+	* A user "friends" another?
+
+* We pick one of the products and together develop a data model for it.
+
+#### Next Class
+
+### --> <%= link_to_lecture :frame2_review %>
