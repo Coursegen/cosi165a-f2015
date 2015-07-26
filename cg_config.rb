@@ -12,10 +12,10 @@ COURSE_LONG_NAME = "Software Entrepreneurship"
 
 # Schedule information. Note that Monday is day 0
 LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
-    first_day: "sep-3-2014",
-    weekdays: [:monday, :wednesday],
+    first_day: "aug-27-2015",
+    weekdays: [:tuesday, :thursday],
     number: 26,
-    skips: ["oct-13-2014", "nov-26-2014"])
+    skips: [])
 
 
 # Sections in the right hand margin of the page
