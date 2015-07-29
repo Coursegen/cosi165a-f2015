@@ -4,7 +4,7 @@ require 'coursegen'
 COPYRIGHT_STRING = "Copyright (2014-2016) R. Pito Salas, pitosalas@gmail.com"
 
 # Bucket Deployment of the course
-AWS_BUCKET = "cosi165-2015"
+AWS_BUCKET = "cosi165a-f2015"
 
 # Course short name
 COURSE_SHORT_NAME = "Cosi 165a"
