@@ -13,7 +13,7 @@ Wk 8: Growth
 Speakers:
 
 - Ideas
-- Financing
+- Finance
 - Pricing
 - Starting
 - VC
@@ -25,3 +25,12 @@ e14p
 
 entrepreneur
 e10p
+
+
+Speakers:
+
+Andy Payne: Starting or [Fundraising] - around Sep 10
+Bill Wittenberg: Alignment or Storytelling
+Rick Treitman: Ideas (but no Sep 9 to 25)
+Yoav: [Growth] or Failure, Culture, Hiring, Team Building
+Jeffrey: Ideas, [Finance], Fund Raising, Metrics/Proof
