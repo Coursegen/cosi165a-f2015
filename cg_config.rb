@@ -14,7 +14,7 @@ COURSE_LONG_NAME = "Software Entrepreneurship"
 LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
     first_day: "aug-27-2015",
     weekdays: [:tuesday, :thursday],
-    number: 26,
+    number: 30,
     skips: [])
 
 
