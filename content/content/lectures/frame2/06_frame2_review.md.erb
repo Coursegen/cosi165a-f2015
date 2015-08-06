@@ -1,28 +1,8 @@
 ---
-title: Frame 2 Review
-desc: Visiting speaker
+title: (SP) Finance
+desc:
 homework: published
 ---
 <%= homework_hdr %>
-
-1. Combine what each team member did individually last time with the design of the data model. Include a clear indication of each table (==entitity), what columns (==attribute or property) each one has, what the relationship the tables have to each other (1-1, 1-many, many-1, many-many), and what the primary and foreign keys are. <%= team_deliverable "Generate a new, more detailed schema" %>
-
-		Example format:
-
-		Table: Course
-		Attributes: ID, course_name, course_number
-
-		Table: Student
-		Attributes: ID, First_name, Last_name, Grad_year
-
-		Table: Enrollment
-		Attributes: ID, Student:ID, Course:ID
-
-		Relationships:
-		Student -> Enrollment is One to Many
-		Course -> Enrollment is One to Many
-		Course <-> Student is Many to Many
-
-	Of course if you want to make a diagram, that's ok too.
-
-* Work as a team to complete your Frame 1 Report. Continue referring to <%= link_to_topic :term_project_report_draft_2 %> for notes and suggestions. <%= team_deliverable "Complete and submit your Term Project Report - draft 2" %>.
+<%= include_topic :hw_product_schema %>
+1. Work as a team to complete the 2nd Draft of your Term Project Report. Continue referring to <%= link_to_topic :term_project_report_draft_2 %> for notes and suggestions. <%= team_deliverable "Complete and submit your Term Project Report - draft 2" %>.
