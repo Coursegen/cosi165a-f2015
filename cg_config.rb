@@ -15,7 +15,7 @@ LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
     first_day: "aug-27-2015",
     weekdays: [:tuesday, :thursday],
     number: 30,
-    skips: [])
+    skips: ["sep-10-2015", "sep-15-2015", "sep-29-2015", "nov-26-2015"])
 
 
 # Sections in the right hand margin of the page
@@ -24,7 +24,7 @@ SECTION_CONFIG = [
   SectionDef.new("Lectures", "lectures", type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG, bullet: :dash),
   SectionDef.new("Background", "background", type: :section, collapsed: false),
   SectionDef.new("Topics", "topics", hidden: true, type: :section),
-  SectionDef.new("Hidden", "hidden", hidden: true, type: :section)
+  SectionDef.new("Extras", "extras", hidden: true, type: :section)
 ]
 
 # Options are:
