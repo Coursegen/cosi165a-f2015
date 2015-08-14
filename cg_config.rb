@@ -9,14 +9,16 @@ AWS_BUCKET = "cosi165a-f2015"
 # Course short name
 COURSE_SHORT_NAME = "Cosi 165a"
 COURSE_LONG_NAME = "Software Entrepreneurship"
+COURSE_ABBREV = "cs165"
 
 # Schedule information. Note that Monday is day 0
 LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
     first_day: "aug-27-2015",
     weekdays: [:tuesday, :thursday],
     number: 30,
-    skips: ["sep-10-2015", "sep-15-2015", "sep-29-2015", "nov-26-2015"])
-
+    skips: ["sep-10-2015", "sep-15-2015", "sep-29-2015", "nov-26-2015"],
+    start_time: "15:30",
+    end_time: "16:50")
 
 # Sections in the right hand margin of the page
 SECTION_CONFIG = [
