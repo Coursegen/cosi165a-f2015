@@ -67,7 +67,7 @@ route "/tipuesearch_logic/tipuesearch_content.*" do
 end
 
 # Select which .md.erb becomes the home page of the site
-route '/content/welcome/05_marketing.md.erb' do
+route '/content/welcome/02_coursetoc.md.erb' do
   '/index.html'
 end
 
