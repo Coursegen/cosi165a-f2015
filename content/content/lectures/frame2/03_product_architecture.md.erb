@@ -1,34 +1,23 @@
 ---
 title: Product Architecture
-homework: published
+homework: 1) NEST Thermostat UX; 2) Continue digging deeper on Term Project
 desc: The role of the architecture in the plan
 ---
 <%= homework_hdr %>
 
-1. Study and read up on the [Nest Thremostat](http://nest.com/thermostat/life-with-nest-thermostat/). The purpose of this homework is for you to practice applying what we have been learning about user experience to a product that you don't know yet.
-
-	Look for articles describing the user interface of the device and play with the demos on their site. You will find videos that describe the installation and the use of the NEST. You might also find articles that either complain or compliment the user interface of the NEST. What do you think they have done right, and what have they not done great?
-
-	<%= deliverable "Write a post giving your assessment of the Nest User Experience. What is good and what might be better in their user experience, and what do you base your opinion on?" %>
-1. Meet with your team for 1-2 hours.
-	* Do a more detailed and complete iteration of your User Experience flow, including paper prototypes and the UX flow itself. <%= team_deliverable "Document your user experience flow. Make paper prototypes of all the important screens. Prepare to do a usability test with it." %>
+<%= include_topic :hw_nest_ux %>
+* Meet with your team for 1-2 hours.
+	* Do a more detailed and complete iteration of your User Experience flow, including paper prototypes and the UX flow itself. Document and/or revise your user experience flow. Make paper prototypes of all the important screens. Prepare to do a usability test with it.
 	* Have a wide ranging discussion about your hypotheses and what more testing you need to do. Refer especially to my guidelines from a week ago about how to improve all the projects:
 		* **Think bigger.** You will need to make a case that the product will be a viable business.
 		* **Be Serious.** Your work is evaluated not just on whether you follow the steps or the format but based on whether you are being realistic and intellectually honest about your proposal. Would you actually pitch this to an Angel?
 		* **Get Out.** Everyone needs to get out of the building more. Go beyond your friends. Talk to strangers!
-		* **Pivot.** If you need to. Real startups pivot if the evidence is not coming in. Zoom out pivot if your idea is too small.
-		* **Presentation.** Professional, neat, readable etc.
-		* **Frame 2.** You will have a chance to improve and revise Frame 1, as it is part of Frame 2
-	* <%= italic_red "Make notes of changes and plans to incorporate into your Frame 2 Report which is coming in two weeks."%>
+   * **Pivot.** If you need to. Real startups pivot if the evidence is not coming in. Zoom  out pivot if your idea is too small. Zoom in if it's too big. See <%= link_to_topic :pivot_types %>
+    * **Presentation.** Professional, neat, readable etc.
 
+    <%= italic_red "Make notes of changes and plans to incorporate into your Term Project Report."%>
 
-#### Discussion
-* Final Presentations Day: TBD
-	* Review rest of the calendar
-	* Review <%= link_to_topic :cs165a_final_deliverables %>
-		* Review topics that were left out due to schedule
-
-#### Architecture's role in this stage
+#### Technology and Architectural tradeoffs
 
 * These form hypotheses like any other solution hypothesis
 * For example
@@ -56,20 +45,6 @@ desc: The role of the architecture in the plan
 	* You might consider it your competitive advantage and even patent it
 	* Most of your work (80% overall) will not be advanced computer science or new invention
 	* For a real commercial product, most of the work will be hard engineering
-
-#### Web and Cloud Architecture
-* <%= discussion "Is there a difference? What are some of the tradeoffs?" %>
-* A lot in common
-	* Accessed using HTTP/REST protocols (typically)
-	* Accessed with a web browser or mobile app (typically)
-* What does the term "provisioning" mean?
-* Overview of deployment
-	* Web: means you own, or control, and manage, a complete set of servers for your application
-	* Cloud: means you rent nodes in a cloud (e.g. Amazon Web Services)
-	* What are web services?
-* Big differences
-	* "Elasticity"
-	* "API control over provisioning"
 
 <%= include_topic :innovators_dilemma %>
 
